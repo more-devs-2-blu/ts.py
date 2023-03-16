@@ -27,7 +27,7 @@ Construir uma aplicação para acelerar o processo de abertura de empresas, bem 
 <ul>
     <li><a href="https://www.djangoproject.com">Django</a> - Framework web de alto nível escrito em Python que permite o desenvolvimento rápido e seguro de aplicativos complexos.</li>
     <li><a href="https://www.python.org/downloads/release/python-3111/">Python</a> - Linguagem de programação popular conhecida por sua simplicidade, legibilidade e versatilidade.</li>
-    <li><a href="https://www.docker.com/products/docker-desktop/">Docker</a> - Plataforma de contêineres que permite aos desenvolvedores empacotar aplicativos em um ambiente isolado, facilitando a implantação e o gerenciamento de aplicativos em diferentes ambientes.</li>
+    <li><a href="https://www.docker.com/products/docker-desktop/">Docker</a> - Docker é uma plataforma projetada para ajudar os desenvolvedores a criar, compartilhar e executar aplicativos modernos.</li>
     <li><a href="https://www.postgresql.org/">Postgres</a> - PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenvolvido como projeto de código aberto</li>
     <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a> - Linguagem de marcação usada para estruturar e exibir conteúdo na web.</li>
     <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a> - Linguagem de estilo usada para definir o layout e a aparência de páginas da web.</li>
@@ -39,7 +39,7 @@ Construir uma aplicação para acelerar o processo de abertura de empresas, bem 
 
 Clone esse repositório em sua máquina.
 ```bash
-$ git clone https://github.com/alejandrosilveiraramos/ts-py.git
+$ git clone https://github.com/more-devs-2-blu/ts.py.git
 ```
 Crie uma virtualenv e ative ela.
 ```bash
