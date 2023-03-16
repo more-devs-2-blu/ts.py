@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-fpabdu)3n7zpuh0h_ljncx=#mcikgmfrd%u%)o8zbuzizard@r'
+SECRET_KEY = 'django-insecure-g29=dwas4vf)ym4v5a)6$r3la970*x&j&yt*#0w)21@o5or$$_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
     'rest_framework',
     'app.usuario.apps.UsuarioConfig',
     'app.empresa.apps.EmpresaConfig',
@@ -34,6 +35,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -42,26 +44,9 @@ MIDDLEWARE = [
 ]
 
 
-
-CORS_ORIGIN_ALLOW_ALL = True
-
-CORS_ALLOW_ALL_ORIGINS = True
-
-CORS_ALLOW_CREDENTIALS = True
-
-CORS_ALLOW_METHODS = [
-    'DELETE',
-    'GET',
-    'OPTIONS',
-    'PATCH',
-    'POST',
-    'PUT'
-]
-
-
-ROOT_URLCONF = 'main.urls'
-
-CORS_ALLOWED_ORIGINS = [""]
+CORS_ALLOWED_ORIGINS = [
+    'http://127.0.0.1:5500'
+    ]
 
 
 ROOT_URLCONF = 'main.urls'
